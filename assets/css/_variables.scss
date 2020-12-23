@@ -4,7 +4,8 @@
 
 // ========== Global ========== //
 // Font and Line Height
-$global-font-family: system-ui, -apple-system, BlinkMacSystemFont, PingFang SC, Microsoft YaHei UI, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Helvetica, Arial, sans-serif !default;
+// $global-font-family: system-ui, -apple-system, BlinkMacSystemFont, PingFang SC, Microsoft YaHei UI, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Helvetica, Arial, sans-serif !default;
+$global-font-family: 'glyph-correction', 'Amstelvar', 'Noto Serif SC', serif;
 $global-font-size: 16px;
 $global-font-weight: 400;
 $global-line-height: 1.5rem;
@@ -118,7 +119,7 @@ $code-info-color: #9c9c9c !default;
 $code-info-color-dark: #b1b0b0 !default;
 
 // Font size of the code
-$code-font-size: .875rem !default;
+$code-font-size: .7rem !default;
 
 // Font family of the code
 $code-font-family: Source Code Pro, Menlo, Consolas, Monaco, monospace, $global-font-family !default;
@@ -364,3 +365,7 @@ $admonition-background-color-map: (
 // ========== Admonition ========== //
 
 $MAX_LENGTH: 12000px;
+
+$footer-color: rgba(121, 121, 124, 0.8);
+$footer-font-size: 0.7rem;
+$footer-line-height: 23px;

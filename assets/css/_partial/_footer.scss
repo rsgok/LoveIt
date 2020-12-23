@@ -2,11 +2,17 @@ footer {
   height: 2rem;
   width: 100%;
   text-align: center;
-  line-height: 1.25rem;
+  line-height: $footer-line-height;
   padding: 1rem 0;
+  color: $footer-color;
+  margin-bottom: 20px;
+  margin-top: 50px;
+  a {
+    color: $footer-color;
+  }
 
   .footer-container {
-    font-size: .875rem;
+    font-size: $footer-font-size;
 
     .footer-line {
       width: 100%;

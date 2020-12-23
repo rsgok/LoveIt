@@ -2,7 +2,7 @@
 
 .single {
   .single-title {
-    margin: 1rem 0 .5rem;
+    margin: 4rem 0 4rem;
     font-size: 1.6rem;
     font-weight: bold;
     line-height: 140%;
@@ -90,7 +90,7 @@
     h5,
     h6 {
       font-weight: bold;
-      margin: 1.2rem 0;
+      margin: 2rem 0;
 
       [theme=dark] & {
         font-weight: bolder;
@@ -118,7 +118,8 @@
     }
 
     p {
-      margin: .5rem 0;
+      margin: 0;
+      line-height: 2;
     }
 
     b, strong {

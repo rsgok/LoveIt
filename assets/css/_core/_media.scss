@@ -1,4 +1,11 @@
 @media only screen and (max-width: 1440px) {
+  #header-desktop {
+    display: flex;
+    justify-content: center;
+  }
+  #header-desktop .header-wrapper {
+    width: 56%;
+  }
   .page {
     width: 56%;
   }
@@ -8,9 +15,13 @@
   .page {
     width: 52%;
   }
-
+  #header-desktop {
+    display: flex;
+    justify-content: center;
+  }
   #header-desktop .header-wrapper {
-    padding-right: 1rem;
+    // padding-right: 1rem;
+    width: 52%;
   }
 
   .search-dropdown.desktop {
