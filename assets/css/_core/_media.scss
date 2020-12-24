@@ -42,8 +42,12 @@
     width: 80%;
   }
 
+  #header-desktop {
+    display: flex;
+    justify-content: center;
+  }
   #header-desktop .header-wrapper {
-    padding-left: 1rem;
+    width: 80%;
   }
 }
 
