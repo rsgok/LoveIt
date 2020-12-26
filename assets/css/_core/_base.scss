@@ -1,3 +1,15 @@
+@font-face
+{
+  font-family: 'glyph-correction';
+  src: url('../lib/webfonts/glyph-correction.woff2'),
+}
+
+@font-face
+{
+  font-family: 'Amstelvar';
+  src: url('../lib/webfonts/Amstelvar-Roman-VF.woff2'),
+}
+
 html {
   font-family: $global-font-family;
   font-weight: $global-font-weight;
