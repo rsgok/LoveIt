@@ -61,6 +61,7 @@ code, pre, .highlight table, .highlight tr, .highlight td {
 
   > .chroma {
     position: relative;
+    // border: 1px solid #30363d;
 
     .code-header {
       display: flex;
@@ -75,7 +76,7 @@ code, pre, .highlight table, .highlight tr, .highlight td {
 
       [theme=dark] & {
         color: $code-info-color-dark;
-        background: darken($code-background-color-dark, 6%);
+        background: $code-background-color-dark;
       }
 
       &:hover {
